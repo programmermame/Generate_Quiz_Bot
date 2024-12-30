@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which of the following is NOT a problem-solving technique?",
+        "options": [
+            "a) Flowchart",
+            "b) Pseudo code",
+            "c) Algorithm",
+            "d) Data Type"
+        ],
+        "correct_answer": "d) Data Type"
+    },
+    {
+        "question": "What does a flowchart represent in problem-solving?",
+        "options": [
+            "a) A set of instructions written in code",
+            "b) A visual representation of a process or algorithm",
+            "c) A list of variables in a program",
+            "d) The output of a program"
+        ],
+        "correct_answer": "b) A visual representation of a process or algorithm"
+    },
+    {
+        "question": "What is the primary purpose of pseudo code?",
+        "options": [
+            "a) To run a program",
+            "b) To visualize data flow in a program",
+            "c) To represent algorithms in plain language before coding",
+            "d) To define data types"
+        ],
+        "correct_answer": "c) To represent algorithms in plain language before coding"
+    },
+    {
+        "question": "An algorithm can be best described as:",
+        "options": [
+            "a) A sequence of instructions to solve a problem",
+            "b) A specific programming language",
+            "c) A set of conditional statements",
+            "d) A flowchart with no direction"
+        ],
+        "correct_answer": "a) A sequence of instructions to solve a problem"
+    },
+    {
+        "question": "Which is true about algorithms?",
+        "options": [
+            "a) They are written in specific programming languages.",
+            "b) They define the process to solve a problem in a step-by-step manner.",
+            "c) They are not required to solve programming problems.",
+            "d) They can be written without considering logic."
+        ],
+        "correct_answer": "b) They define the process to solve a problem in a step-by-step manner."
+    },
+    {
+        "question": "What is the result of the following C++ expression?\nint main() {\nint result = 5 + 3 * 2;\ncout << \"The result of 5 + 3 * 2 is: \" << result <<;\nreturn 0; }",
+        "options": [
+            "a) 16",
+            "b) 11",
+            "c) 13",
+            "d) 23"
+        ],
+        "correct_answer": "b) 11"
+    },
+    {
+        "question": "What does the following C++ code output?\nint x = 10;\ncout << x + 5;",
+        "options": [
+            "a) 5",
+            "b) 10",
+            "c) 15",
+            "d) 20"
+        ],
+        "correct_answer": "c) 15"
+    },
+    {
+        "question": "What is the syntax for declaring a variable of type int in C++?",
+        "options": [
+            "a) int x;",
+            "b) integer x;",
+            "c) x int;",
+            "d) var x: int;"
+        ],
+        "correct_answer": "a) int x;"
+    },
+    {
+        "question": "What will be the output of the following C++ code?\nint x = 5;\nif (x == 5) {\ncout << \"True\";\n} else {\ncout << \"False\";\n}",
+        "options": [
+            "a) True",
+            "b) False",
+            "c) Error",
+            "d) Nothing"
+        ],
+        "correct_answer": "a) True"
+    },
+    {
+        "question": "What is the purpose of the cin statement in C++?",
+        "options": [
+            "a) To print output to the console",
+            "b) To read input from the user",
+            "c) To declare a variable",
+            "d) To define a function"
+        ],
+        "correct_answer": "b) To read input from the user"
+    }
+]
+
