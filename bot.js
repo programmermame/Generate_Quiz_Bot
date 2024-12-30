@@ -11,7 +11,7 @@ const token = process.env.TELEGRAM_BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
 // Replace with your channel username (without @)
-const channelUsername = '@ExitExamBank';
+const channelUsername = '';
 
 let questions = [];
 
