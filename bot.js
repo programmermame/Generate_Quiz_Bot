@@ -2,8 +2,12 @@ const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 const path = require('path');
 const dotenv = require('dotenv');
+const express = require('express');
+
 
 dotenv.config();
+
+const app = express();
 
 
 // Replace with your Telegram Bot's API token
@@ -102,12 +106,12 @@ const sendQuizToChannel = (index) => {
         type: "quiz",
         correct_option_id: correctOptionId,
     })
-    .then(() => {
-        setTimeout(() => sendQuizToChannel(index + 1), 10000); // Send every 10 seconds
-    })
-    .catch((err) => {
-        console.error("Error sending poll:", err);
-    });
+        .then(() => {
+            setTimeout(() => sendQuizToChannel(index + 1), 10000); // Send every 10 seconds
+        })
+        .catch((err) => {
+            console.error("Error sending poll:", err);
+        });
 };
 
 
@@ -119,3 +123,9 @@ bot.on('polling_error', (error) => {
 
 // Start by loading questions from file (if exists)
 loadQuestions();
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log(`server is running on port ${PORT}`);
+})
